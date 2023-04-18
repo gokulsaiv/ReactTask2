@@ -1,0 +1,20 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-shrink: 1;
+  margin-left: 70px;
+}
+.link {
+  text-decoration: none;
+}
+.showMoreBtn {
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+}
+.showMore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

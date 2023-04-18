@@ -1,0 +1,52 @@
+.checkout-btn {
+  width: 125px;
+  align-self: center;
+  height: 35px;
+  font-weight: 600;
+  background-color: rgb(255, 238, 1);
+  margin-bottom: 5px;
+  justify-content: center;
+  margin-left: 9px;
+  border: none;
+  border-radius: 5px;
+}
+.book-img {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(202, 131, 24);
+  border-radius: 3px;
+  border: 3px solid rgb(185, 185, 185);
+}
+.constainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+.Nav-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+h2,
+h5,
+p {
+  text-align: start;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+.details {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 390px) {
+  .constainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  h2{
+    font-size: 1rem;
+  }
+}
